@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 import { Li, BtnOnDelete, } from './ContactList.styled';
-//  import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+
 
 const ContactList = ({ contacts, onDelete }) => {
   return (

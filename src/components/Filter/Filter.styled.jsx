@@ -8,4 +8,6 @@ export const FilterContainer = styled.div`
 
 export const Input = styled.input`
   height: 30px;
+  padding: 20px;
+  font-size: 30px;
 `;

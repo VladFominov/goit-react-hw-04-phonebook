@@ -19,10 +19,14 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   height: 30px;
+  padding: 20px;
+  font-size: 30px;
 `;
 
 export const InputNumber = styled.input`
   height: 30px;
+  padding: 20px;
+  font-size: 30px;
 `;
 
 export const Span = styled.span`
@@ -33,7 +37,7 @@ export const Span = styled.span`
 export const BtnAdd = styled.button`
   padding: 10px;
   margin: 0 auto;
-  width: 100px;
+  width: 200px;
   border: none;
   border-radius: 10px;
   &:hover {

@@ -9,14 +9,13 @@ import {
   BtnAdd,
   Span,
 } from './Form.styled';
-//  state = { name: '', number: '' };
+
 const Form = ({ onSubmit}) => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
   const handleChange = e => {
-    // const { name, value } = e.currentTarget;
-    // this.setState({ [name]: value });
+   
     const { name, value } = e.target;
     switch (name) {
       case "name" :
